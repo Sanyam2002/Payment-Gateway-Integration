@@ -114,7 +114,7 @@ li.fade {
 .about-container{
     display: flex;
     width: 300px;
-    height: 338px;
+    height: 340px;
 }
 #para{
     padding: 8px 14px;
@@ -141,17 +141,17 @@ contact-container{
     width: 113%;
     margin-left: 5px;
 }
-.from-group{
-    margin-left: -22px;
+.from-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .myform input {
-    width: 102%;
+    width: 122%;
     padding: 5px;
     font-size: 15px;
     margin: 9px -4px;
-}
-.message{
-    margin-left: 71px;
 }
 .message textarea{
     width: 67%;
@@ -163,6 +163,7 @@ contact-container{
 }
 .primary{
     font-size: 28px;
+    margin-bottom: 26px;
 }
 footer {
     width: auto;
